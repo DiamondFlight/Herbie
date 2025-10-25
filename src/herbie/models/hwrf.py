@@ -55,7 +55,6 @@ class hwrf:
                 raise ValueError(f"`storm` should be one of {S.name_to_id.keys()}")
 
         self.storm_name = S.id_to_name.get(self.storm)
-
 		self.version = S.id_to_name.get(self.version)
 
         self.PRODUCTS = {

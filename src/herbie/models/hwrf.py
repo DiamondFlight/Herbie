@@ -54,8 +54,8 @@ class hwrf:
             if self.storm is None:
                 raise ValueError(f"`storm` should be one of {S.name_to_id.keys()}")
 
-		self.storm_name = S.id_to_name.get(self.storm);
-		self.version = self.version;
+        self.storm_name = S.id_to_name.get(self.storm);
+        self.version = self.version;
 
         self.PRODUCTS = {
             "core.0p015": f"{self.storm.upper()}-{self.storm_name.title()}",

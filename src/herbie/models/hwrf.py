@@ -27,6 +27,7 @@ class Storms:
             text = requests.get(URL + message).text
             center, storm_id, storm_name, _ = re.split(r"\s+", text, maxsplit=3)
             storms[storm_id.lower()] = storm_name.lower()
+        print(storms)
         return storms
 
     @functools.cached_property

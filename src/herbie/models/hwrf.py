@@ -56,7 +56,7 @@ class hwrf:
 
         self.storm_name = S.id_to_name.get(self.storm)
 
-	self.version = S.id_to_name.get(self.version)
+		self.version = S.id_to_name.get(self.version)
 
         self.PRODUCTS = {
             "core.0p015": f"{self.storm.upper()}-{self.storm_name.title()}",

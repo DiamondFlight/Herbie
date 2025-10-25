@@ -68,7 +68,7 @@ class hwrf:
         PATH = f"hwrf.{self.date:%Y%m%d/%H}/{self.storm}.{self.date:%Y%m%d%H}.hwrf{self.version}.{self.product}.f{self.fxx:03d}.grb2"
 
         self.SOURCES = {
-            "nomads": f"https://nomads.ncep.noaa.gov/pub/data/nccf/com/hafs/prod/{PATH}"
+            "nomads": f"https://nomads.ncep.noaa.gov/pub/data/nccf/com/hwrf/prod/{PATH}"
         }
         self.IDX_SUFFIX = [".grb2.idx"]
         self.EXPECT_IDX_FILE = "remote"

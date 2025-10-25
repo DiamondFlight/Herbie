@@ -24,6 +24,7 @@ from .gdps import *
 from .gefs import *
 from .gfs import *
 from .hafs import *
+from .hwrf import *
 from .hiresw import *
 from .hrdps import *
 from .href import *

@@ -20,7 +20,6 @@ from herbie.misc import ANSI
 # ======================================================================
 from .cfs import *
 from .ecmwf import *
-from .euroaiens import *
 from .gdps import *
 from .gefs import *
 from .gfs import *
